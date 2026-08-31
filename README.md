@@ -1,9 +1,8 @@
-
 # 🎓 AI Student Performance Analyzer
 
 An **AI-based Student Performance Analyzer and Risk Prediction System** that analyzes student academic data and predicts whether a student is **At Risk** or **Not At Risk** using Machine Learning.
 
-The project uses **Python, NumPy, Pandas, MySQL, and Scikit-learn** to generate, store, analyze, and predict student performance.
+The project uses **Python, NumPy, MySQL, Scikit-learn, and Basic Machine Learning** concepts to generate, store, analyze, and predict student performance.
 
 ## 🚀 Features
 
@@ -11,18 +10,18 @@ The project uses **Python, NumPy, Pandas, MySQL, and Scikit-learn** to generate,
 * 🗄️ Store student data using MySQL
 * 🔍 Analyze academic performance
 * 🤖 Predict student academic risk using Machine Learning
-* 📈 Use attendance, previous marks, assignment marks, internal marks, and study hours as performance factors
+* 📈 Analyze attendance, previous marks, assignment marks, internal marks, and study hours
 * 🌳 Decision Tree classification model
 * 🧹 Data processing and analysis using Python libraries
+* 📋 Classify students as **At Risk** or **Not At Risk**
 
 ## 🛠️ Technologies Used
 
 * **Python**
 * **NumPy**
-* **Pandas**
 * **MySQL**
 * **Scikit-learn**
-* **Basic ML**
+* **Basic Machine Learning**
 * **VS Code**
 
 ## 📂 Project Structure
@@ -35,8 +34,6 @@ AI_Student_Performance/
 ├── analysis.py
 ├── ml_model.py
 ├── main.py
-├── student_performance.ipynb
-├── requirements.txt
 └── README.md
 ```
 
@@ -122,13 +119,7 @@ cd AI_Student_Performance
 ### 3. Install required libraries
 
 ```bash
-pip install numpy pandas scikit-learn mysql-connector-python
-```
-
-Or, if `requirements.txt` is available:
-
-```bash
-pip install -r requirements.txt
+pip install numpy scikit-learn mysql-connector-python
 ```
 
 ## 🗄️ MySQL Setup
@@ -157,14 +148,6 @@ python ml_model.py
 python main.py
 ```
 
-If using Jupyter Notebook, open:
-
-```text
-student_performance.ipynb
-```
-
-and run the cells sequentially.
-
 ## 📌 Future Improvements
 
 * Create a graphical user interface
@@ -185,4 +168,8 @@ The main objective of this project is to use **Data Science and Machine Learning
 **Priyanka**
 
 B.Tech CSE Student
+
 Interested in **AI/ML, Data Science, Python & DSA**
+
+
+
